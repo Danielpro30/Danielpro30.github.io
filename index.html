@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bri_art213</title>
+    <title>Página completa hasta el final</title>
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh; /* 100% de la altura de la ventana */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contenido {
+            flex: 1;
+        }
+
+        footer {
+            background-image: linear-gradient(95deg, #95f2f0 0, #73e0e3 25%, #42cbd4 50%, #00b6c6 75%, #00a5bb 100%);
+            padding: 10px;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-    <header>
-    <h1>Dibujos de Bri_art213</h1>
-    </header>
-<main>
-    <p>Aqui subire mis dibujos </p>
+    <div class="contenido">
+        <h1>Bienvenido a Mi Página</h1>
+        <p>Aqui subire mis dibujos </p>
     <img src="imgenes web/img1.png" width="100px"/>
     <p>Bola de fuego</p>
-</main>
+    </div>
+    <footer>
+        <a href="paginasecreta.html">a</a>
+    </footer>
 </body>
 </html>
