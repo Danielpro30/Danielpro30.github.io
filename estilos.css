@@ -1,9 +1,10 @@
 h1{
-    text-shadow: 0 0 2px red
+    color: #FFFFFF;
+    text-shadow: 5px 6px 5px rgb(0, 0, 0)
+}
+p{
+    color: white;
 }
 body{
-    background-image: linear-gradient(95deg, #95f2f0 0, #73e0e3 25%, #42cbd4 50%, #00b6c6 75%, #00a5bb 100%);
-}
-a{
-    color: #95f2f0
+    background: linear-gradient( #2D2D2D, #7D7D7D, #B3B3B3, #C0C0C0, #FFFFFF );
 }
